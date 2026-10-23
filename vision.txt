@@ -1,0 +1,41 @@
+Meleys: Vision
+==============
+
+Meleys aims to be the fastest Java HTTP framework, with the lowest
+latency and the smallest memory footprint, for HTTP/1.1, HTTP/2 and
+HTTP/3.
+
+The name
+--------
+Meleys, the Red Queen, is the swiftest dragon in the Game of Thrones
+universe. Speed is why this project exists, so it carries her name.
+
+Goals
+-----
+1. Fastest
+   The highest request throughput of any Java HTTP framework.
+
+2. Lowest latency
+   The lowest response times, at the tail (p99 and above) as well as
+   on average.
+
+3. Smallest memory footprint
+   The least memory used, both at idle and under load.
+
+4. HTTP/1.1, HTTP/2 and HTTP/3
+   All three protocol versions are first-class. None is an
+   afterthought.
+
+5. Latest JVM
+   Meleys targets the newest JDK releases and uses new platform
+   features as they ship, rather than holding back for older Java
+   versions.
+
+6. Every operating system
+   Meleys runs on every operating system a current JDK supports,
+   including Linux, macOS and Windows.
+
+How we will know
+----------------
+Every claim about speed, latency or memory is backed by public,
+reproducible benchmarks against other Java frameworks.
